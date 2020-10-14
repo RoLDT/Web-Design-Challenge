@@ -4,7 +4,7 @@
 <head>
 
   <meta charset="UTF-8">
-  <title>landing</title>
+  <title>Comparisons</title>
 
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -29,10 +29,10 @@
                   Plots
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="visual_1.html">Visual1</a>
-                  <a class="dropdown-item" href="visual_2.html">Visual2</a>
-                  <a class="dropdown-item" href="visual_3.html">Visual3</a>
-                  <a class="dropdown-item" href="visual_4.html">Visual4</a>
+                  <a class="dropdown-item" href="visual_1.html">Latitude vs. Temperature</a>
+                  <a class="dropdown-item" href="visual_2.html">Latitude vs. Cloudiness</a>
+                  <a class="dropdown-item" href="visual_3.html">Latitude vs. Humidity</a>
+                  <a class="dropdown-item" href="visual_4.html">Latitude vs. Wind Speed</a>
                 </div>
               </li>
             <li class="nav-item">
@@ -46,13 +46,42 @@
         </div>
       </nav>
 
-    <div class = "container">
-        <div class = "row">
-            <div class = "col-md-4">
-                <p>This is the comparison page.</p>
-            </div>
+    <div class = "container fluid">
+      <div class = "row">
+        <div class= "col-md-12">
+          <h1>Comparison: Latitude vs. X</h1>
+          <hr>
+          <p>
+          Here you can compare each plot on your own.
+          Click on any plot to get an in-depth analysis.
+          </p>
         </div>
-
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h4 class="text-center">Max Temperature</h4>
+          <a href="visual_1.html"><img src="Resources\assets\latvsmaxtemp.png" alt="latvstemp" width="90%"></a>
+          <hr>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h4 class="text-center">Cloudiness</h4>
+          <a href="visual_2.html"><img src="Resources\assets\latvscloud.png" alt="latvscloud" width="90%"></a>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h4 class="text-center">Humidity</h4>
+          <a href="visual_3.html"><img src="Resources\assets\latvshumid.png" alt="latvshumid" width="90%"></a>
+          <hr>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <h4 class="text-center">Wind Speed</h4>
+          <a href="visual_4.html"><img src="Resources\assets\latvswind.png" alt="latvswind" width="90%"></a>
+          <hr>
+        </div>
+      </div>        
+      </div>
     </div>
 
 
@@ -60,4 +89,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
+
+<footer class="page-footer font-small">
+  <hr>
+  <div class="footer-copyright text-center py-3">
+    Made by: Rodrigo Lozano © Copyright 2020
+  </div>
+</footer>
+
 </html>
